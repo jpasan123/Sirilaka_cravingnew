@@ -1,0 +1,99 @@
+
+  
+   
+     
+     
+   
+
+/* style.css */
+
+ /* Adjust the path as needed */
+
+
+
+Adjust font size
+.nav-link {
+    font-size: 16px;
+    /* Change the font size here */
+  }
+  
+  /* Change navigation bar color */
+  .navbar-custom {
+    background-color: #f7931e; /* Change the navigation bar color here */
+  }
+  
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+
+    @media (min-width: 1025px) {
+      .h-custom {
+      height: 100vh !important;
+      }
+      }
+
+
+      .Links{
+        color: rgb(245, 242, 239);
+        font-size: 15px;
+      
+       
+      
+      } 
+      .Links:hover{
+      
+        background: #371562;
+        color: #fff;
+        border: none;
+        box-shadow: 0px 4px 6px rgba(236, 233, 233, 0.1);
+        
+        border-radius: 8px;
+        
+      }
+
+      .sidenav-heading {
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .sidenav-link {
+        color: rgb(240, 220, 250);
+        text-decoration: none;
+        display: block;
+        margin-bottom: 10px;
+        font-size: small;
+        transition: 0.3s;
+      }
+      
+      .sidebar {
+        height: 100%;
+        width: 200px; /* Adjust width as needed */
+        position: fixed;
+        z-index: 0;
+        top: 0; /* Adjust positioning */
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      .sidenav-link:hover {
+        color: lightblue;
+      }
+      
+
+  
+   
+     
+     
+   
+
+          
